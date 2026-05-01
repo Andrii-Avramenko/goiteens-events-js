@@ -1,9 +1,10 @@
+import { PageTitle } from './components/PageTitle/PageTitle'
 import { GlobalStyle } from './components/GlobalStyle'
 
 function App() {
   return (
     <>
-      <p>Hello world!</p>
+      <PageTitle text="24th Core Worlds Coalition Conference" />
       <GlobalStyle />
     </>
   )
